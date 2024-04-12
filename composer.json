@@ -1,0 +1,21 @@
+{
+    "name": "yassin/stripe-api",
+    "description": "The \"yassin/stripe-package\" is a comprehensive PHP package designed to simplify integration with the Stripe payment gateway. It provides a set of intuitive methods for handling various Stripe functionalities such as creating tokens for credit card transactions, processing payments, and managing subscriptions. With its clean and well-documented codebase, this package streamlines the development process, allowing developers to seamlessly incorporate Stripe payments into their PHP applications. Whether you're building an e-commerce platform, a subscription-based service, or a donation system, this package offers the flexibility and reliability you need to manage online payments effectively.",
+    "type": "library",
+    "require": {
+            "guzzlehttp/guzzle": "^7.0.1"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Yassin\\StripeApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yassinidi",
+            "email": "nailiyassin2@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
